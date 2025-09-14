@@ -1,0 +1,110 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.14
+Date: 09. 08. 2025
+  Changes:
+    - Minor changes to the alternative mode
+---------------------------------------------------------------------------------------------------
+Version: 0.2.13
+Date: 05. 08. 2025
+  Changes:
+    - Compability with 'Team Competition', should no longer spawn unlimited versions in new chunks
+    - Added an alternative mode for resource values (keep original and swap between normal and unlimted one)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.12
+Date: 19. 07. 2025
+  Changes:
+    - Added support for the planet Paracelsin
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 02. 02. 2025
+  Changes:
+    - Added support for more planet mods
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 02. 02. 2025
+  Changes:
+    - Fixed broken localization for fluid resources.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 01. 02. 2025
+  Changes:
+    - Now works with the Cursed-FMD by Ravran when in combination with some mods by brevven.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 01. 02. 2025
+  Changes:
+    - Now works with the Zirconium and Tin mods by brevven.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 13. 01. 2025
+  Changes:
+    - Now works with the Yuoki mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 10. 01. 2025
+  Changes:
+    - Unlimited ores are now very dense visually instead of barely anything.
+    - Changed how the unlimited versions are localized, they should now all say 'Unlimited ...'
+      This way, even other mods that add resources will have a localized name instead of 'Unknown key: ...'
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 30. 11. 2024
+  Changes:
+    - Now works with the Tenebris mod.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 23. 11. 2024
+  Changes:
+    - The crafted item is now removed, and the shortcut is now how you use it.
+      A shortcut has the benefit of being used while in 'Remote View' as well.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 23. 10. 2024
+  Changes:
+    - Should work with PyRawOres and PyPetroleumHandling now.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 22. 10. 2024
+  Changes:
+    - You now instead have finer control in the mods settigns, instead of random values.
+    - Changed so this mod loads after Space Age to have it create unlimited versione of those resorces too.
+  Notes:
+    - It was reported (and I noticed too) that high yield returns multiple items. So you now decide in the settings of the mod instead.
+      I'm not 100% sure how it works, but a yield of 100 on a ore, seems to be 1 per cycle. And for fluids it's 10 per cycle.
+      If you want high amounts, just use a high number in the settings.
+      Default is 100 for ore and 100 for fluids.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 21. 10. 2024
+  Changes:
+    - Fixed an issue where it would crash if tree was inside the selection.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 21. 10. 2024
+  Changes:
+    - Added support for Factorio 2.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 23. 04. 2023
+  Changes:
+    - Should work with Krastorio 2's changes to oil now.
+    - Increased the random values. Both normal and Extream should yeild higher percentage now.
+    - Added optional dependencies to IndustrialRevolution3 and bobores so this mod loads last.
+  Notes:
+    - I realise I made these changes a while ago, but never updated the mod on the portal, whoops!
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 26. 08. 2022
+  Changes:
+    - Added optional dependencies to Krastorio2 and Space Exploration so this mod loads last.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 27. 08. 2021
+  Changes:
+    - Bumped factorio_version to 1.1 in the info.json file.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 18. 04. 2021
+  Changes:
+    - Changelog.txt added.
+---------------------------------------------------------------------------------------------------
