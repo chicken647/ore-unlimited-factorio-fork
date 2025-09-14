@@ -2,7 +2,7 @@ data:extend({
     {
         type = "selection-tool",
         name = "ore-unlimited",
-        icon = "__ore-unlimited__/graphics/ore-unlimited.png",
+        icon = "__ore-unlimited-fixed__/graphics/ore-unlimited.png",
         icon_size = 32,
         subgroup = "tool",
         order = "c[automated-construction]-b[deconstruction-planner]-e",
@@ -30,9 +30,9 @@ data:extend({
         action = 'spawn-item',
         item_to_spawn = 'ore-unlimited',
         icon_size = 32,
-        icon = "__ore-unlimited__/graphics/ore-unlimited.png",
+        icon = "__ore-unlimited-fixed__/graphics/ore-unlimited.png",
         small_icon_size = 24,
-        small_icon = "__ore-unlimited__/graphics/ore-unlimited.png",
-        disabled_small_icon = "__ore-unlimited__/graphics/ore-unlimited.png"
+        small_icon = "__ore-unlimited-fixed__/graphics/ore-unlimited.png",
+        disabled_small_icon = "__ore-unlimited-fixed__/graphics/ore-unlimited.png"
     }
 })
