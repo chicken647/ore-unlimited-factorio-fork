@@ -3,8 +3,6 @@ Version: 0.2.18
 Date: 22. 04. 2026
   Changes:
     - Fixed Krastorio 2 crude oil registry.
-Compatibility:
-    - Updated Factorio version to 2.0.72.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.17
 Date: 13. 09. 2025
