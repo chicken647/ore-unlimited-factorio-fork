@@ -22,7 +22,7 @@ local function logic_on_player_selected_area(event, set_unlimted)
 
 	if item == "ore-unlimited" then
 		for _, entity in pairs(entities) do
-			
+
 			if entity.valid and entity.type == "resource" then
 				-- Cannot figure out these ones
 				if not string.find(entity.name, "se-core-fragment", 1, true) then
@@ -34,7 +34,7 @@ local function logic_on_player_selected_area(event, set_unlimted)
 
 					local alternativeMode = settings.startup["ore-unlimited-alternative-mode"].value
 					local newAmount = entity.amount
-					
+
 					if not alternativeMode then
 						newAmount = get_random_amount(rng, cleanName, set_unlimted)
 					end
@@ -67,7 +67,7 @@ local function logic_on_player_selected_area(event, set_unlimted)
 
 							entity.destroy()
 						end
-					else 
+					else
 						if string.match(entity.name, "unlimited-") then
 							local resEntity = {
 								name=cleanName,
@@ -85,7 +85,7 @@ local function logic_on_player_selected_area(event, set_unlimted)
 							end
 
 							player.surface.create_entity(resEntity)
-							
+
 							entity.destroy()
 						end
 					end
